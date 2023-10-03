@@ -3,21 +3,20 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "University of Edinburgh"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "University of Edinburgh (UoE) library"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "Digital Scholarship Centre, UoE Library Floor 6 on November 13th, Research Suite, UoE Library Floor 6 on November 14th"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
-latitude: "55.962450227686006"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-3.231888561955223"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "ADD DATE"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "13:00 - 16:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate:      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate:         # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["ADD ME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["ADD ME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: [""]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+latitude: "55.94274252664739"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-3.1894681464603725"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "November 13-14 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2023-11-13   # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-11-14  # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Hugh Warden", "Ben King"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Giacomo Peru", "Rosie Eccleston", "Mario Antonioletti", "Ben King", "Hugh Warden"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["lucie.woellenstein@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.carpentries.org/2023-11-13-dusc-ml-python # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
