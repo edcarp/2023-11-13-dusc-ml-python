@@ -57,7 +57,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 **Introduction to Machine Learning with Python**
 
-This workshop comprises four lessons on applied machine learning in Python using health data. Lessons take participants through a typical pipeline for prediction, covering key concepts in preparing data, training models, and evaluating performance. We introduce models including decision trees and neural networks and highlight key issues in their responsible use. Prior knowledge of Python (for example, gained through a Carpentries course) is beneficial, but not required.
+This workshop comprises four lessons on applied machine learning in Python using health data. Lessons take participants through a typical pipeline for prediction, covering key concepts in preparing data, training models, and evaluating performance. We introduce models including decision trees and neural networks and highlight key issues in their responsible use. Prior knowledge of Python (for example, gained through a Carpentries course) is beneficial, but not required. It was developed by ED-DaSH and now adopted into the Edinburgh Carpentries DUSC programme. 
 
 **Ed-DaSH**
 
@@ -291,12 +291,13 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 
 
 {% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
+SURVEYS - DO NOT EDIT SURVEY LINKS (UNLESS USING AS PART OF DUSC CARPENTRIES INSTEAD OF ED-DASH)
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete the workshop survey (can be completed before you attend).</p>
+<p>Please be sure to complete the relevant workshop survey before and after the course.</p>
 {% if site.carpentry == "pilot" %}
-<p><a href="{{ site.pilot_post_survey }}">Ed-DaSH Survey</a></p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.pilot_pre_survey or site.pilot_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
