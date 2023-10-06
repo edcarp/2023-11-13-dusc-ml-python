@@ -291,9 +291,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete the relevant workshop survey before and after the course.</p>
+<p>Please be sure to complete the relevant workshop survey.</p>
 {% if site.carpentry == "pilot" %}
 <p><a href="{{ site.pilot_post_survey }}">Ed-DaSH Survey</a></p>
 {% elsif site.pilot_pre_survey or site.pilot_post_survey %}
@@ -311,6 +310,7 @@ change the value of `carpentry` to `pilot`.
 {% endif %}
 
 <hr/>
+{% endcomment %}
 
 
 {% comment %}
