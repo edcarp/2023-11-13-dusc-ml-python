@@ -386,7 +386,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
+  you will need access to software described <a href = "https://carpentries-incubator.github.io/machine-learning-novice-python/setup.html">here</a>.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
